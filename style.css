@@ -1,0 +1,54 @@
+body {
+	background: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: 9px solid black;
+	border-style: double;
+}
+
+.Head {
+	border: 3px solid black;
+	text-align: center;
+	color: black;
+	max-width: 30%;
+	background: url(images/headbg.jpg) 50%;
+	margin-top: 5px;
+}
+
+div {
+	margin-left: 10px;
+}
+
+h1, h2 {
+	border: 2px solid blue;
+	max-width: 20%;
+}
+
+h3 {
+	color: red;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
